@@ -1,0 +1,10 @@
+#miningProgress {
+    width: 100px;
+    background-color: #ddd;
+}
+  
+#miningBar {
+    width: 1%;
+    height: 20px;
+    background-color: #04AA6D;
+}
