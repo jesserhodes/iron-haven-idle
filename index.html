@@ -5,15 +5,25 @@
         <title>Iron Haven Idle</title>
     </head>
     <body>
-        <button onclick="startMining()">Mine</button>
+        <button onclick="startAction(mining)">Mine</button>
         <div id="miningProgress">
             <div id="miningBar"></div>
         </div>
         Level: <span id="miningLevel">1</span>
+        <br \>
+        Experience <span id="miningExp">0</span>/<span id="miningExpReq">5</span>
+        <br \>
         Ore: <span id="ore">0</span>
         <br \>
-        <button onclick="startFishing()">Fish</button>
+        <br \>
+        <button onclick="startAction(fishing)">Fish</button>
+        <div id="fishingProgress">
+            <div id="fishingBar"></div>
+        </div>
         Level: <span id="fishingLevel">1</span>
+        <br \>
+        Experience <span id="fishingExp">0</span>/<span id="fishingExpReq">5</span>
+        <br \>
         Fish: <span id="fish">0</span>
     </body>
 </html>
